@@ -5,7 +5,7 @@
 }
 
 .btn-group{
-	position: absolute;
+	position: fixed;
 	right: 10px;
 	bottom: 10px;
 }
@@ -25,11 +25,11 @@ h2{
 
 .project{
 	float: left;
-	margin: 15px 15px 0;
+	margin: 20px 10px 0;
 	background: #f7f7f9;
 	padding: 10px 15px;
-	width: 250px;
-	height: 160px;
+	width: 260px;
+	height: 140px;
 
 	@include radius;
 }
