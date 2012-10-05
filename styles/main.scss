@@ -31,6 +31,12 @@ h2{
 	width: 260px;
 	height: 140px;
 
+	-webkit-transition: all ease-out 200ms;
+	-moz-transition: all ease-out 200ms;
+	-o-transition: all ease-out 200ms;
+	-ms-transition: all ease-out 200ms;
+	transition: all ease-out 200ms;
+
 	@include radius;
 }
 
